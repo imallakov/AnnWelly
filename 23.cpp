@@ -18,7 +18,7 @@ int main() {
     */
 
     for (int i = 1; i <= n; ++i) {
-        int a;       //A budet tem chislom kazhdyy raz
+        int a;       //chislo A budet prinimat chislo kotoroye my vvodim kazhdyy raz
         cin >> a;    //Vvodim A
         s.emplace(a);//dobavlyayem A v spisok selyh chisel
     }
